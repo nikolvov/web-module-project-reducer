@@ -16,8 +16,6 @@ This simplified calculator adds the entire number selected, rather then adds dig
 
 ![Calculator Example](project-goals.gif)
 
-Can't get it to commit 
-This project is brokemn
 ***Make sure to complete your tasks one at a time and complete test each task before proceding forward.***
 
 ## Instructions
