@@ -16,6 +16,8 @@ This simplified calculator adds the entire number selected, rather then adds dig
 
 ![Calculator Example](project-goals.gif)
 
+Can't get it to commit 
+This project is brokemn
 ***Make sure to complete your tasks one at a time and complete test each task before proceding forward.***
 
 ## Instructions
@@ -29,8 +31,8 @@ This simplified calculator adds the entire number selected, rather then adds dig
 ### Task 2: Project Requirements
 #### Connect The Reducer
 > *Let's start our process by connecting our UI to our reducer and initial state.*
-* [ ] Take a tour of application, in particular the `App.js`, `/reducer/index.js`, and `/action/index.js` files.
-* [ ] Note that the `TotalDisplay` component takes in a value and displays it in a styled textarea. YOU WILL NOT NEED TO MODIFY THIS COMPONENT.
+* [x] Take a tour of application, in particular the `App.js`, `/reducer/index.js`, and `/action/index.js` files.
+* [x] Note that the `TotalDisplay` component takes in a value and displays it in a styled textarea. YOU WILL NOT NEED TO MODIFY THIS COMPONENT.
 * [ ] Note that the `CalcButton` component takes in an `onClick` method and a value, displays that value and attaches the passed `onClick` method to the button ui. YOU WILL NOT NEED TO MODIFY THIS COMPONENT.
 * [ ] Within App.js, import the useReducer hook, our application's reducer and initialState object.
 * [ ] Use useReducer hook to get access to the application state and the dispatch function.
@@ -94,7 +96,6 @@ export const initialState = {
 * [ ] When `M+` is pressed, the current memory value should be set to the current total value. Test by seeing the result of memory in the UI.
 * [ ] When `MR` is pressed, the current memory value should be applied to the current total value(See the APPLY_NUMBER case). Test by adding a value to memory and then seeing if the total updates correctly when pressed.
 * [ ] When `MC` is pressed, the current memory value should be set to zero. Test by adding a value to memory and then seeing the memory value reset to zero when pressed.
-
 
 ### Task 3: Stretch goals
 - [ ] There is a version of the calculator focuses on adding individual digits, rather then entire numbers. How do you imagine adding an individual digit to the total state?
